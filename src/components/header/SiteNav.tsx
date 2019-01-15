@@ -10,6 +10,7 @@ import Facebook from '../icons/facebook';
 import Twitter from '../icons/twitter';
 import SubscribeModal from '../subsribe/SubscribeOverlay';
 import SiteNavLogo from './SiteNavLogo';
+import Instagram from '../icons/instagram';
 
 const HomeNavRaise = css`
   @media (min-width: 900px) {
@@ -174,6 +175,17 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
                 rel="noopener noreferrer"
               >
                 <Twitter />
+              </a>
+            )}
+            {config.instagram && (
+              <a
+                className={`${SocialLink}`}
+                href={config.instagram}
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram />
               </a>
             )}
           </SocialLinks>
