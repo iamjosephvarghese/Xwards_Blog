@@ -229,7 +229,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({ post }) => {
               <AuthorNameTooltip className="author-name-tooltip">
                 {post.frontmatter.author.id}
               </AuthorNameTooltip>
-              <Link
+              {/* <Link
                 className={`${StaticAvatar}`}
                 to={`/author/${_.kebabCase(post.frontmatter.author.id)}/`}
               >
@@ -238,7 +238,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({ post }) => {
                   src={post.frontmatter.author.avatar.children[0].fixed.src}
                   alt={post.frontmatter.author.id}
                 />
-              </Link>
+              </Link> */}
             </AuthorListItem>
           </AuthorList>
           <ReadingTime>{post.timeToRead} min read</ReadingTime>
