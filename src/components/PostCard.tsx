@@ -216,7 +216,7 @@ const PostCard: React.FunctionComponent<PostCardProps> = ({ post }) => {
       <PostCardContent className="post-card-content">
         <Link className={`${PostCardContentLink} post-card-content-link`} to={post.fields.slug}>
           <header className="post-card-header">
-            {post.frontmatter.tags && <PostCardTags>{post.frontmatter.tags[0]}</PostCardTags>}
+            {/* {post.frontmatter.tags && <PostCardTags>{post.frontmatter.tags[0]}</PostCardTags>} */}
             <PostCardTitle>{post.frontmatter.title}</PostCardTitle>
           </header>
           <PostCardExcerpt>
