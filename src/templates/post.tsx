@@ -299,10 +299,10 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
               {/* Suscribe in full post page */}
               {/* {config.showSubscribe && <Subscribe title={config.title} />} */}
 
-              <PostFullFooter>
+              {/* <PostFullFooter>
                 <AuthorCard author={post.frontmatter.author} />
                 <PostFullFooterRight authorId={post.frontmatter.author.id} />
-              </PostFullFooter>
+              </PostFullFooter> */}
             </article>
           </div>
         </main>
@@ -311,9 +311,11 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
         <aside className={`read-next ${outer}`}>
           <div className={`${inner}`}>
             <ReadNextFeed>
-              {props.data.relatedPosts && (
+              {/* {props.data.relatedPosts && (
                 <ReadNextCard tags={post.frontmatter.tags} relatedPosts={props.data.relatedPosts} />
-              )}
+              )} */}
+
+              {/* Removed the card showing posts with the same tags */}
 
               {props.pageContext.prev && <PostCard post={props.pageContext.prev} />}
               {props.pageContext.next && <PostCard post={props.pageContext.next} />}
@@ -330,7 +332,7 @@ export default PageTemplate;
 
 export const query = graphql`
   query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/xwards_400.png" }) {
       childImageSharp {
         fixed {
           ...GatsbyImageSharpFixed
