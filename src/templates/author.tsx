@@ -151,11 +151,11 @@ const Author: React.FunctionComponent<AuthorTemplateProps> = props => {
           <div className={`${inner}`}>
             <SiteNav isHome={false} />
             <SiteHeaderContent>
-              <img
+              {/* <img
                 className={`${AuthorProfileBioImage} ${AuthorProfileImage}`}
                 src={props.data.authorYaml.avatar.childImageSharp.fluid.src}
                 alt={author.id}
-              />
+              /> */}
               <SiteTitle>{author.id}</SiteTitle>
               {author.bio && <AuthorBio>{author.bio}</AuthorBio>}
               <AuthorMeta>
