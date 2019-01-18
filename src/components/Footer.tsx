@@ -10,8 +10,8 @@ import config from '../website-config';
 
 const SiteFooter = css`
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
   background: ${setLightness('0.0015', colors.darkgrey)};
 `;
@@ -73,7 +73,7 @@ const Footer: React.FunctionComponent = () => {
           <Link to="/">{config.title}</Link> &copy; {new Date().getFullYear()}
         </section>
         <SiteFooterNav>
-          <Link to="/">Latest Posts</Link>
+          <Link to="/">Home</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
               Facebook
@@ -85,11 +85,11 @@ const Footer: React.FunctionComponent = () => {
             </a>
           )}
 
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
             Ghost
-          </a>
+          </a> */}
 
-          <Link to="/rss.xml">RSS</Link>
+          {/* <Link to="/rss.xml">RSS</Link> */}
         </SiteFooterNav>
       </div>
     </footer>
