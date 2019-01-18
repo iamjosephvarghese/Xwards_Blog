@@ -149,7 +149,8 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
               <Link to="/about">About</Link>
             </li> */}
             <li role="menuitem">
-              <Link to="/tags/getting-started/">Getting Started</Link>
+              {/* <Link to="/tags/getting-started/">Official Website</Link> */}
+              <a href="https://www.xwards.com" target="_blank" title="Xwards Official Website">Official Website</a>
             </li>
           </ul>
         </SiteNavLeft>
@@ -189,12 +190,12 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
               </a>
             )}
           </SocialLinks>
-          {config.showSubscribe && (
+          {/* {config.showSubscribe && (
             <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
           )}
           {config.showSubscribe && (
             <SubscribeModal ref={this.subscribe} />
-          )}
+          )} */}
         </SiteNavRight>
       </nav>
     );
