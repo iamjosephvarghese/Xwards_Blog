@@ -66,7 +66,7 @@ const NavStyles = css`
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
   }
 
@@ -99,8 +99,8 @@ const SocialLinks = styled.div`
 const SubscribeButton = styled.a`
   display: block;
   padding: 4px 10px;
-  border: #fff 1px solid;
-  color: #fff;
+  border: #000 1px solid;
+  color: #000;
   font-size: 1.2rem;
   line-height: 1em;
   border-radius: 10px;

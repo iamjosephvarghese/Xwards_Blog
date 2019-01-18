@@ -9,7 +9,7 @@ const SiteNavLogoStyles = css`
   display: block;
   margin-right: 24px;
   padding: 11px 0;
-  color: #fff;
+  color: #000;
   font-size: 1.7rem;
   line-height: 1em;
   font-weight: bold;

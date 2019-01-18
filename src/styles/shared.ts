@@ -59,7 +59,7 @@ export const SocialLink = css`
   align-items: center;
   margin: 0;
   padding: 10px;
-  color: #fff;
+  color: #000;
   opacity: 0.8;
 
   :hover {
@@ -68,7 +68,7 @@ export const SocialLink = css`
 
   svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: #000;
   }
 `;
 
@@ -76,9 +76,9 @@ export const SiteHeader = css`
   position: relative;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
+  color: #000;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
+  background: ${darken('0.00', colors.white)} no-repeat center center;
   background-size: cover;
 `;
 
@@ -103,7 +103,7 @@ export const SiteHeaderStyles = css`
   z-index: 10;
   display: block;
   height: 80px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 
   :before {
     content: '';
@@ -114,12 +114,12 @@ export const SiteHeaderStyles = css`
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0, 0, 0, 0.18);
+    background: rgba(255, 255, 255, 0);
   }
 
   :after {
     content: '';
-    position: absolute;
+    position: absolute
     top: 0;
     right: 0;
     bottom: auto;
@@ -127,7 +127,7 @@ export const SiteHeaderStyles = css`
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
   }
   @media (max-width: 700px) {
     padding-right: 0;
