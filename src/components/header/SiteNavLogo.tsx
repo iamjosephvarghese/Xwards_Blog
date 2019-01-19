@@ -7,8 +7,8 @@ import config from '../../website-config';
 const SiteNavLogoStyles = css`
   flex-shrink: 0;
   display: block;
-  margin-right: 24px;
-  padding: 11px 0;
+  margin-right: 20px;
+  padding: 7px 0;
   color: #000;
   font-size: 1.7rem;
   line-height: 1em;
@@ -22,7 +22,7 @@ const SiteNavLogoStyles = css`
   img {
     display: block;
     width: auto;
-    height: 21px;
+    height: 30px;
   }
 `;
 
