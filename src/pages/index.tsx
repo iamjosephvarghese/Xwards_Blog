@@ -21,6 +21,7 @@ import {
   SiteTitle,
 } from '../styles/shared';
 import { PageContext } from '../templates/post';
+import favicon from '../favicon.ico'
 
 const HomePosts = css`
   @media (min-width: 795px) {
@@ -89,7 +90,9 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
   const height = String(Number(width) / props.data.header.childImageSharp.fluid.aspectRatio);
   return (
     <IndexLayout className={`${HomePosts}`}>
-      <Helmet>
+      <Helmet link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+  ]}>
         <html lang={config.lang} />
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
@@ -111,6 +114,7 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
         {config.twitter && <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[1]}`} />}
         <meta property="og:image:width" content={width} />
         <meta property="og:image:height" content={height} />
+        
       </Helmet>
       <Wrapper>
         <header

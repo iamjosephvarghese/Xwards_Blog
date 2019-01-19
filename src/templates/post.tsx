@@ -21,6 +21,7 @@ import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
 import { inner, outer, SiteHeader, SiteMain } from '../styles/shared';
 import config from '../website-config';
+import favicon from '../favicon.ico'
 
 const PostTemplate = css`
   .site-main {
@@ -216,7 +217,9 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
 
   return (
     <IndexLayout className="post-template">
-      <Helmet>
+      <Helmet link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+  ]}>
         <html lang={config.lang} />
         <title>{post.frontmatter.title}</title>
 
