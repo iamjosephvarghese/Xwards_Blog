@@ -6,6 +6,7 @@ author: Ghost
 date: 2018-04-25T07:03:47.149Z
 tags: []
 draft: false
+path: future-of-OOH-advertising
 ---
 
 Let's start with the history of OOH (I know nobody likes history, I’ve spiced up a bit though :-)

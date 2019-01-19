@@ -36,7 +36,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/cover2.jpg',
   logo: 'img/xwards_400.png',
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://nervous-hypatia-c17f50.netlify.com',
   facebook: 'https://www.facebook.com/xwards',
   twitter: 'https://twitter.com/_xwards_',
   instagram: 'https://instagram.com/_xwards_',

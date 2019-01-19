@@ -6,6 +6,7 @@ author: Ghost
 date: 2018-03-14T07:03:47.149Z
 tags: [Xwards]
 draft: false
+path: xwards-our-story
 ---
 
 Nobody wants to be stuck in a cab for a long and boring ride-and the rides can be long in India’s traffic clogged cities. But hey, you can find a million dollar idea if you are smart. That’s our story.

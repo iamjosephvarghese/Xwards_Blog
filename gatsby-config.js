@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Xwards',
     description: 'Elevating Brands . Engaging People',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://nervous-hypatia-c17f50.netlify.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',

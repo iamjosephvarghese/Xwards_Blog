@@ -135,6 +135,7 @@ interface PageTemplateProps {
       timeToRead: string;
       frontmatter: {
         title: string;
+        path: string;
         date: string;
         userDate: string;
         image: {
@@ -259,6 +260,40 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
         />}
         {width && <meta property="og:image:width" content={width} />}
         {height && <meta property="og:image:height" content={height} />}
+
+
+        <script type="application/ld+json">
+        {`
+            "@context" : "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "${'https://wwww.blog.xwards.com/' + post.frontmatter.path}"
+  },
+  "headline": "hi",
+  "datePublished": "2015-02-05T08:00:00+08:00",
+  "image": {
+    "@type": "ImageObject",
+    "url": "${config.siteUrl + post.frontmatter.image.childImageSharp.fluid.src}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Xwards"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Xwards",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://google.com/logo.jpg"
+    }
+  }
+`}
+</script>
+
+
+
+
       </Helmet>
       <Wrapper className={`${PostTemplate}`}>
         <header className={`${SiteHeader} ${outer}`}>
@@ -349,6 +384,7 @@ export const query = graphql`
       timeToRead
       frontmatter {
         title
+        path
         userDate: date(formatString: "D MMMM YYYY")
         date
         tags

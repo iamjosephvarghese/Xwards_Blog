@@ -6,6 +6,7 @@ author: Ghost
 date: 2018-03-06T07:03:47.149Z
 tags: []
 draft: false
+path: better-economy-for-kerala
 ---
 
 Like any other economy,Kerala should play into her strengths and hedge against her weaknesses in order to make it more vibrant.The strengths include:
