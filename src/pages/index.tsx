@@ -116,7 +116,21 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
         <meta property="og:image:height" content={height} />
 
 
-      
+        <script type="application/ld+json">
+        {`{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Xwards",
+          "url": "https://www.xwards.com",
+          "sameAs": [
+            "https://twitter.com/_xwards_",
+            "https://www.facebook.com/xwards",
+            "https://www.instagram.com/_xwards_",
+            "https://angel.co/xwards-1",
+            "https://www.linkedin.com/company/7971934"
+          ]
+        }`}
+</script>
 
 
         

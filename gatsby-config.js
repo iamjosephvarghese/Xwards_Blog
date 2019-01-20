@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Xwards',
     description: 'Elevating Brands . Engaging People',
-    siteUrl: 'https://nervous-hypatia-c17f50.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://www.blog.xwards.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://www.blog.xwards.com',
       },
     },
     'gatsby-plugin-emotion',
