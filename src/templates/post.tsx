@@ -268,7 +268,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "${'https://wwww.blog.xwards.com/' + post.frontmatter.path}"
+    "@id": "${'https://www.blog.xwards.com/' + post.frontmatter.path}"
   },
   "headline": "hi",
   "datePublished": "2015-02-05T08:00:00+08:00",
