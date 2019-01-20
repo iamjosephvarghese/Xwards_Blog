@@ -285,7 +285,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
     "name": "Xwards",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://google.com/logo.jpg"
+      "url": "https://www.xwards.com/img2/xwards.png"
     }
   }
 }`}
