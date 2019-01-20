@@ -263,7 +263,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
 
 
         <script type="application/ld+json">
-        [{{
+        {`{
             "@context" : "http://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
@@ -288,8 +288,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
       "url": "https://google.com/logo.jpg"
     }
   }
-}
-        }]
+}`}
 </script>
 
 
