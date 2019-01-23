@@ -79,5 +79,28 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        exclude: ["/tags/*", "/author/*", `/about`],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`
+      }
+    }
   ],
 };
