@@ -15,7 +15,7 @@ Like any other economy,Kerala should play into her strengths and hedge against h
 
 #### Industries and Innovation
 
-Kerala's capital city Trivandrum,and Cochin are among the hotspots in South India for service industries,apart from Bangalore and Hyderabad. It also boasts of a thriving startup ecosystem that meets global standards,Profoundis being an example. **Fledgling startups like **<a href="https://www.xwards.com/" target="_blank">Xwards</a>** explore hitherto untapped arenas like Digital Out Of Home advertising,which enables higher growth potential for the economy.**
+Kerala's capital city Trivandrum,and Cochin are among the hotspots in South India for service industries,apart from Bangalore and Hyderabad. It also boasts of a thriving startup ecosystem that meets global standards,Profoundis being an example. **Fledgling startups like <a href="https://www.xwards.com/" target="_blank">Xwards</a> explore hitherto untapped arenas like Digital Out Of Home advertising,which enables higher growth potential for the economy.**
 
 Startup spirit should be spread amongst the youth and incubation centres should be set up in colleges itself. More ventures like Startup Village should be set up to guide and incubate young entrepreneurs,thus providing additional employment and income.
 
