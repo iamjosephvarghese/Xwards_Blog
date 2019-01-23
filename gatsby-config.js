@@ -101,6 +101,14 @@ module.exports = {
             }
         }`
       }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.blog.xwards.com',
+        sitemap: 'https://www.blog.xwards.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     }
   ],
 };
