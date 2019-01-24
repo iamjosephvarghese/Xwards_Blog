@@ -270,7 +270,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
     "@type": "WebPage",
     "@id": "${'https://www.blog.xwards.com/' + post.frontmatter.path}"
   },
-  "headline": "hi",
+  "headline": "${post.frontmatter.title}",
   "datePublished": "2015-02-05T08:00:00+08:00",
   "image": {
     "@type": "ImageObject",
