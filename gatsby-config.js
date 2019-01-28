@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Xwards',
+    title: 'Xwards | Blog',
     description: 'Elevating Brands . Engaging People',
     siteUrl: 'https://www.blog.xwards.com', // full path to blog - no ending slash
   },

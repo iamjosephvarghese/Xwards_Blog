@@ -31,7 +31,7 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Xwards',
+  title: 'Xwards | Blog',
   description: 'Elevating Brands . Engaging People',
   coverImage: 'img/cover2.jpg',
   logo: 'img/xwards_400.png',
