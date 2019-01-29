@@ -225,6 +225,7 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
         <title>{post.frontmatter.title}</title>
 
         <meta name="description" content={post.excerpt} />
+        <meta name="keywords" content="xwards, blog xwards, xwards blog, kochi, best dooh company in kochi, cochin, top advertising company in cochin, transit advertising in kochi, digital advertising, blogging, blogs from kerala, technology blogs, jozef jagan, paul alex"/>
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.frontmatter.title} />
